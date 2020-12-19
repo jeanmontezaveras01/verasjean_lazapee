@@ -1,0 +1,287 @@
+head {
+    display: none;
+}
+
+body {
+    color: #424242;
+    font-size: 15px;
+}
+
+* {
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+}
+
+header {
+    font-size: 17px;
+    border-color: #cacaca ;
+    border-bottom: 3px solid;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    background-color: #ffffff;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 660px) {
+    header{display: block;
+    }
+    .accounts{
+        padding: 20px;
+    }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f95031;
+}
+
+a {
+    color: #252f7b;  
+}
+
+.categories {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.account  {
+    list-style-type: none;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+@media only screen and (max-width: 1275px){
+    .accounts{
+        padding: 20px;
+    }
+  
+}
+
+li {
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.content {
+    background-color: #eff0f5;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 660px) {
+    header{display: block;
+    }
+    .accounts{
+        padding: 20px;
+    }
+
+    .content{
+        padding-top: 110px;
+    }
+}
+
+.all-items {
+    width: 95%;
+    background-color: #ffffff;
+    padding-top: 30px;
+    margin-bottom: 150px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 805px) {
+    .all-items {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .all-items {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px
+
+    }
+}
+
+.product{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.product-image img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-info{
+    margin-left: 0em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+
+table {
+    border-color: #cacaca ;
+    border-style: none;
+    width: 95%;
+    background-color:#ffff ;
+    margin-bottom: 5em;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 30px;
+    margin-bottom: 150px;
+    border-collapse:collapse; 
+}
+
+th, td {
+    
+    padding: 10px; 
+    
+  }
+  
+  th {
+    text-align: center;
+    border-bottom: 2px solid #eff0f5;
+   
+  }
+  tr:hover{
+    background-color: #cacaca;
+
+}
+
+@media only screen and (max-width: 780px) {
+    .num1{
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .num2{
+      display: none;
+    }
+}
+
+  #edit{
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  .input{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .table input {
+    width: 100%;
+  }
+
+  button{
+    background-color: #28a745;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  .product-image img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+.products{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.products button{
+    background-color: #007bff;
+    width: 105px;
+    text-align: justify;
+    margin: 0px;
+}
+
+.products input{
+    height: 15px;
+}
+
+.add {
+    width: 100%;
+    align-items: center;
+}
+   
+footer {
+    display: flex;
+    font-size: 15px; 
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color:#ffff ;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+@media only screen and (max-width: 1275px){
+    footer{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    footer{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .social-medias{
+        padding-right: 10px;
+        padding-right: 10px;
+    }
+}
+
+.social-medias {
+    padding-right: 50px;
+    padding-right: 30px;   
+} 
+
+.footer-laz {
+    padding-right: 50px;
+    padding-right: 30px;    
+}
+
